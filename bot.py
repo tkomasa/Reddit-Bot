@@ -10,9 +10,9 @@ quote = ["ENTER QUOTES HERE"]
 # Reddit api login
 reddit = praw.Reddit(client_id='client id here',
                      client_secret='client secret here',
-                     username='reddit username here',
-                     password='reddit password here',
-                     user_agent='useful to put your main reddit account here')
+                     username='reddit bot account username here',
+                     password='reddit bot account password here',
+                     user_agent='you should put your main/personal reddit account username here')
 
 # Subreddit restrictions
 subreddit = reddit.subreddit('REDDIT TO WATCH')
