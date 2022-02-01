@@ -5,7 +5,7 @@ import praw
 from random import randint
 
 # Quote list
-quote = ["ENTER QUOTES HERE"]
+quote = ["ENTER QUOTES ARRAY HERE"]
 
 # Reddit api login
 reddit = praw.Reddit(client_id='client id here',
